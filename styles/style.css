@@ -1,0 +1,9 @@
+*, *:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.viewport {
+    height: 100vh;
+    width: 100vw;
+}
