@@ -1,3 +1,4 @@
+/* Boilerplate */
 *, *:before,
 *:after {
     box-sizing: border-box;
@@ -6,4 +7,68 @@
 .viewport {
     height: 100vh;
     width: 100vw;
+}
+
+/* Top navigation bar */
+
+svg {
+    height: 16px;
+    width: 16px;
+}
+
+.main-nav {
+    height: 42px;
+    width: 100vw;
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-left, 
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left > li {
+    padding: 0 15px 0 15px;
+}
+
+.nav-right > li > button {
+    padding: 11px 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+    transition: ease 0.6s;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.nav-right > li > button:hover {
+    background-color: #326891;
+}
+
+.main-nav > a {
+    align-self: center;
+    flex-grow: 0;
+}
+
+#space-cosmos {
+    text-decoration: none;
+    color: #000;
+}
+
+#space-cosmos:hover {
+    text-decoration: underline;
 }
