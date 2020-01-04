@@ -124,7 +124,8 @@ svg {
 
     font-size: 1rem;
     line-height: 1.25rem;
-    margin-right: 7px;
+    /* margin-right: 7px; */
+    margin: 5px 0 10px 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #666;
 }
@@ -217,6 +218,10 @@ svg {
     font-weight: 800;
     font-size: 1.3rem;
     margin: 10px 0;
+}
+
+.embedded-video {
+    margin-top: 25px;
 }
 
 /* ---------- */
